@@ -6,6 +6,7 @@
 .sidebar {
 	min-width: 300px;
 	border-right: 1px solid #000;
+	background-color: rgb(241, 241, 241);
 }
 
 .sidebar-post {
@@ -14,12 +15,16 @@
 	padding: 50px auto;
 }
 
-.sidebar-post h3 {
+.side-title {
 	cursor: pointer;
+	width: fit-content;
+	margin: 20px auto;
+	font-size: 1.2rem;
+	font-weight: 700;
 }
 
-.sidebar-post h3:hover {
-	color: #00f;
+.side-title:hover {
+	color: rgb(109, 4, 214);
 }
 
 ul {
@@ -30,4 +35,17 @@ ul {
 .post-wrapper {
 	margin: auto;
 	max-width: 80%;
+}
+
+main {
+	background-color: rgb(188, 255, 235);
+}
+
+.main-title {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.main-body {
+	font-size: 1.5rem;
 }
